@@ -21,6 +21,10 @@ class stack{
             console.log(this.stackNum);
     
     }
+
+    peek(){
+        console.log("The top element of stack is : "+ this.stackNum[this.top]);
+    }
     
 }
 
@@ -28,4 +32,6 @@ let obj = new stack();
 obj.push(10);
 obj.push(20);
 obj.push(30);
+obj.peek();
 obj.pop();
+obj.peek();
