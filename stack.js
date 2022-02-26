@@ -64,12 +64,8 @@ obj.push(20);
 obj.push(30);
 obj.push(40);
 obj.isFull();
-<<<<<<< HEAD
-
-=======
-obj.push(10);
 obj.push(100);
->>>>>>> Stack_Array_Methods
+obj.push(101);
 
 
 
