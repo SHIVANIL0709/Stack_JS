@@ -65,6 +65,7 @@ obj.push(30);
 obj.push(40);
 obj.isFull();
 obj.push(10);
+obj.push(100);
 
 
 
